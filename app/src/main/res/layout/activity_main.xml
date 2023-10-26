@@ -61,14 +61,14 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_clr"
-                style="@style/operatorbutton"
+                style="@style/OperatorButton"
                 android:onClick="onClearClick"
                 android:textSize="25dp"
                 android:text="C"
                 />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/digitbutton"
+                style="@style/DigitButton"
                 android:id="@+id/btn_back"
                 android:onClick="onBackClick"
                 app:icon="@drawable/baseline_backspace_24"
@@ -76,13 +76,13 @@
                 />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/operatorbutton"
+                style="@style/OperatorButton"
                 android:onClick="onoperatorClick"
                 android:text="%"
                 android:id="@+id/btn_module"/>
 
             <com.google.android.material.button.MaterialButton
-                style="@style/operatorbutton"
+                style="@style/OperatorButton"
                 android:onClick="onoperatorClick"
                 android:id="@+id/btn_div"
                 android:text="/" />
@@ -96,24 +96,24 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn7"
-                style="@style/digitbutton"
+                style="@style/DigitButton"
                 android:onClick="onDigitClick"
                 android:text="7" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn8"
-                style="@style/digitbutton"
+                style="@style/DigitButton"
                 android:onClick="onDigitClick"
                 android:text="8" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/digitbutton"
+                style="@style/DigitButton"
                 android:id="@+id/btn9"
                 android:onClick="onDigitClick"
                 android:text="9" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/operatorbutton"
+                style="@style/OperatorButton"
                 android:onClick="onoperatorClick"
                 android:id="@+id/btn_mul"
                 android:text="*" />
@@ -126,25 +126,25 @@
             android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
-                style="@style/digitbutton"
+                style="@style/DigitButton"
                 android:id="@+id/btn4"
                 android:onClick="onDigitClick"
                 android:text="4" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/digitbutton"
+                style="@style/DigitButton"
                 android:id="@+id/btn5"
                 android:onClick="onDigitClick"
                 android:text="5" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/digitbutton"
+                style="@style/DigitButton"
                 android:id="@+id/btn6"
                 android:onClick="onDigitClick"
                 android:text="6" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/operatorbutton"
+                style="@style/OperatorButton"
                 android:id="@+id/btn_add"
                 android:onClick="onoperatorClick"
                 android:text="+" />
@@ -157,25 +157,25 @@
             android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
-                style="@style/digitbutton"
+                style="@style/DigitButton"
                 android:id="@+id/btn1"
                 android:onClick="onDigitClick"
                 android:text="1" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/digitbutton"
+                style="@style/DigitButton"
                 android:id="@+id/btn2"
                 android:onClick="onDigitClick"
                 android:text="2" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/digitbutton"
+                style="@style/DigitButton"
                 android:id="@+id/btn3"
                 android:onClick="onDigitClick"
                 android:text="3" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/operatorbutton"
+                style="@style/OperatorButton"
                 android:onClick="onoperatorClick"
                 android:id="@+id/btn_sub"
                 android:text="-" />
@@ -188,26 +188,26 @@
             android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
-                style="@style/operatorbutton"
-                android:onClick="onAllclearClick"
+                style="@style/OperatorButton"
+                android:onClick="onAllClearClick"
                 android:id="@+id/btn_ac"
                 android:textSize="18dp"
                 android:text="AC" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/digitbutton"
+                style="@style/DigitButton"
                 android:id="@+id/btn0"
                 android:onClick="onDigitClick"
                 android:text="0" />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/digitbutton"
+                style="@style/DigitButton"
                 android:id="@+id/btn_dot"
                 android:onClick="onDigitClick"
                 android:text="." />
 
             <com.google.android.material.button.MaterialButton
-                style="@style/operatorbutton"
+                style="@style/OperatorButton"
                 android:id="@+id/btn_equal"
                 android:onClick="onEqualClick"
                 android:textColor="@color/white"

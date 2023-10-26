@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-    fun onAllclearClick(view: View) {
+    fun onAllClearClick(view: View) {
         binding.text1.text=""
         binding.text2.text=""
         stateError=false

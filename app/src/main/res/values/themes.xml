@@ -8,12 +8,12 @@
     <style name="Theme.MAD_Assignment2_21012011136" parent="Base.Theme.MAD_Assignment2_21012011136" />
 
 
-    <style name="operatorbutton" parent="commonbutton">
+    <style name="OperatorButton" parent="CommonButton">
         <item name="android:textColor">@color/btnbackground2</item>
     </style>
 
 
-    <style name="digitbutton" parent="commonbutton">
+    <style name="DigitButton" parent="CommonButton">
         <item name="android:textColor">@color/black</item>
     </style>
 
@@ -22,7 +22,7 @@
 
 
     
-    <style name="commonbutton" parent="Widget.MaterialComponents.FloatingActionButton">
+    <style name="CommonButton" parent="Widget.MaterialComponents.FloatingActionButton">
         <item name="android:layout_width">72dp</item>
         <item name="android:layout_height">72dp</item>
         <item name="cornerRadius">36dp</item>
